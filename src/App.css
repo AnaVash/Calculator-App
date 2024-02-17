@@ -61,15 +61,14 @@ font-size: 2.5rem;
 }
 
 /* responsive for mobile */
-@media (max-width: 390px){
+@media (max-width: 410px){
   .calculator-app{
-  grid-template-columns: repeat(4, 4rem);
-  grid-template-rows: repeat(6, 4rem);
-  background-color: green;
+  grid-template-columns: repeat(4, 3.5rem);
+  grid-template-rows: repeat(6, 3.5rem);
     
   }
   .calculator-app > button {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .output .previous-num{
     font-size: 1.1rem;
@@ -84,7 +83,6 @@ font-size: 2.5rem;
   .calculator-app{
   grid-template-columns: repeat(4, 5.5rem);
   grid-template-rows: repeat(6, 5.5rem);
-  background-color: green;
     
   }
   .calculator-app > button {
