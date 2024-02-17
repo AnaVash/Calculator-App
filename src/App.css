@@ -63,8 +63,9 @@ font-size: 2.5rem;
 /* responsive for mobile */
 @media (max-width: 360px){
   .calculator-app{
-  grid-template-columns: repeat(4, 5rem);
-  grid-template-rows: repeat(6, 5rem);
+  grid-template-columns: repeat(4, 4rem);
+  grid-template-rows: repeat(6, 4rem);
+  background-color: green;
     
   }
   .calculator-app > button {
