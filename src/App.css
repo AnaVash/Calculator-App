@@ -21,6 +21,7 @@ body{
   
 }
 
+
 .calculator-app > button {
   cursor: pointer;
   font-size: 2.2rem;
@@ -57,4 +58,40 @@ font-size: 2.5rem;
 .output .previous-num{
   color : rgba(255, 255, 255, 0.60);
   font-size: 1.5rem;
+}
+
+/* responsive for mobile */
+@media (max-width: 360px){
+  .calculator-app{
+  grid-template-columns: repeat(4, 5rem);
+  grid-template-rows: repeat(6, 5rem);
+    
+  }
+  .calculator-app > button {
+    font-size: 1.8rem;
+  }
+  .output .previous-num{
+    font-size: 1.1rem;
+  }
+  .output .current-num{
+    font-size: 2rem;
+  }
+}
+
+/* responsive for tablet */
+@media (max-width: 601px){
+  .calculator-app{
+  grid-template-columns: repeat(4, 5.5rem);
+  grid-template-rows: repeat(6, 5.5rem);
+    
+  }
+  .calculator-app > button {
+    font-size: 2rem;
+  }
+  .output .previous-num{
+    font-size: 1.3rem;
+  }
+  .output .current-num{
+    font-size: 2.1rem;
+  }
 }
