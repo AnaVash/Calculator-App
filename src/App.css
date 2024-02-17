@@ -61,25 +61,25 @@ font-size: 2.5rem;
 }
 
 /* responsive for mobile */
-@media (max-width: 410px){
+@media (max-width: 576px){
   .calculator-app{
   grid-template-columns: repeat(4, 3.5rem);
   grid-template-rows: repeat(6, 3.5rem);
     
   }
   .calculator-app > button {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
   .output .previous-num{
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .output .current-num{
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 }
 
 /* responsive for tablet */
-@media (max-width: 601px){
+@media (min-width: 768px){
   .calculator-app{
   grid-template-columns: repeat(4, 5.5rem);
   grid-template-rows: repeat(6, 5.5rem);
