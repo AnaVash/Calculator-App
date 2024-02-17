@@ -63,12 +63,13 @@ font-size: 2.5rem;
 /* responsive for mobile */
 @media (max-width: 576px){
   .calculator-app{
-  grid-template-columns: repeat(4, 3.5rem);
-  grid-template-rows: repeat(6, 3.5rem);
+  grid-template-columns: repeat(4, 3rem);
+  grid-template-rows: repeat(6, 3rem);
+  margin: 5px;
     
   }
   .calculator-app > button {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .output .previous-num{
     font-size: 1rem;
